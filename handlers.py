@@ -8,7 +8,10 @@ import time
 
 router = Router()
 
-r = Redis(host='https://services-jasik.alwaysdata.net', port=8300, db=0)
+r = Redis(
+    host='redis-17501.c321.us-east-1-2.ec2.cloud.redislabs.com',
+    port=17501,
+    password='lJTc6z4GRd3WxeMwJuv2tEtyGD61UyHg')
 
 
 @router.message(Command('start'))
