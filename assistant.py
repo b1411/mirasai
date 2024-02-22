@@ -2,7 +2,7 @@ import uuid
 import requests
 import json
 
-api_key = "e1365358-9b2b-4973-b8b4-d31f2450c60c"
+api_key = "0c6b0426-6c88-4817-9707-176c51df06b0"
 
 
 def get_response(text, contact, r):
